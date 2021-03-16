@@ -8,6 +8,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { ContentComponent } from './components/content/content.component';
 import { BrandComponent } from './components/brand/brand.component';
+import { ColorComponent } from './components/color/color.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { BrandComponent } from './components/brand/brand.component';
     NavigationComponent,
     ContentComponent,
     BrandComponent,
+    ColorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
