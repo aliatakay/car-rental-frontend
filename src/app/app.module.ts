@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { ContentComponent } from './components/content/content.component';
+import { BrandComponent } from './components/brand/brand.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ContentComponent } from './components/content/content.component';
     SidebarComponent,
     NavigationComponent,
     ContentComponent,
+    BrandComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
