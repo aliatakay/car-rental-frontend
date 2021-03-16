@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
-import { ContentComponent } from './components/content/content.component';
 import { BrandComponent } from './components/brand/brand.component';
 import { ColorComponent } from './components/color/color.component';
 
@@ -15,7 +14,6 @@ import { ColorComponent } from './components/color/color.component';
     AppComponent,
     SidebarComponent,
     NavigationComponent,
-    ContentComponent,
     BrandComponent,
     ColorComponent,
   ],
