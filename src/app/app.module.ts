@@ -8,6 +8,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { BrandComponent } from './components/brand/brand.component';
 import { ColorComponent } from './components/color/color.component';
+import { CarComponent } from './components/car/car.component';
+import { RentalComponent } from './components/rental/rental.component';
+import { CustomerComponent } from './components/customer/customer.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { ColorComponent } from './components/color/color.component';
     NavigationComponent,
     BrandComponent,
     ColorComponent,
+    CarComponent,
+    RentalComponent,
+    CustomerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
