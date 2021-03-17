@@ -2,15 +2,17 @@
     <span class="visually-hidden">Loading...</span>
 </div>
 
-<table *ngIf="dataLoaded==true" class="table">
+<table *ngIf="dataLoaded==true" class="table table-danger table-striped table-hover table-bordered border-danger">
     <thead>
         <tr>
             <th>Color Id</th>
             <th>Color Name</th>
         </tr>
     </thead>
-    <tr *ngFor="let color of colors">
-        <td>{{ color.colorId }}</td>
-        <td>{{ color.colorName }}</td>
-    </tr>
+    <tbody>
+        <tr *ngFor="let color of colors">
+            <td>{{ color.colorId }}</td>
+            <td>{{ color.colorName }}</td>
+        </tr>
+    </tbody>
 </table>
